@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta charset="UTF-8">
+	<title>CrossFit</title>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet"> -->
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/css/clean-blog.min.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- <script>
+  </script> -->
+
+	    <!-- Navigation -->
+	    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+	        <div class="container-fluid">
+	            <!-- Brand and toggle get grouped for better mobile display -->
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    Menu <i class="fa fa-bars"></i>
+	                </button>
+	                <a class="navbar-brand" href="">WOD</a>
+	            </div>
+
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-right">
+										{{#if user}}
+	                    <li>
+	                        <a href="/dashboard">Dashboard</a>
+	                    </li>
+											<li>
+												 <a href="/profile">Profile</a>
+										 </li>
+										 <li>
+												<a href="/workout">Workout</a>
+										</li>
+	                    <li>
+	                        <a href="/logout">logout</a>
+	                    </li>
+										{{else}}
+											<li>
+													<a href="/">home</a>
+											</li>
+	                    <li>
+	                        <a href="/login">login</a>
+	                    </li>
+	                    <li>
+	                        <a href="/signup">register</a>
+	                    </li>
+										{{/if}}
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
+
+
+
+          {{{body}}}
+
+					<!-- Footer -->
+					<br>
+					<hr>
+					<footer>
+							<div class="container">
+									<div class="row">
+											<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+													<ul class="list-inline text-center">
+															<li>
+																	<a href="#">
+																			<span class="fa-stack fa-lg">
+																					<i class="fa fa-circle fa-stack-2x"></i>
+																					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+																			</span>
+																	</a>
+															</li>
+															<li>
+																	<a href="#">
+																			<span class="fa-stack fa-lg">
+																					<i class="fa fa-circle fa-stack-2x"></i>
+																					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+																			</span>
+																	</a>
+															</li>
+															<li>
+																	<a href="#">
+																			<span class="fa-stack fa-lg">
+																					<i class="fa fa-circle fa-stack-2x"></i>
+																					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+																			</span>
+																	</a>
+															</li>
+													</ul>
+													<p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+											</div>
+									</div>
+							</div>
+					</footer>
+
+
+          <script src="/js/jquery.min.js"></script>
+          <script src="/js/bootstrap.min.js"></script>
+          <script src="/js/clean-blog.min.js"></script>
+
+
+
+
+
+
+
+	</body>
+</html>

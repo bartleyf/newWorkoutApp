@@ -1,0 +1,111 @@
+<header class="intro-header" style="background-image:url('/assets/images/dashboard.jpg')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading">
+					<h1>Welcome back.</h1>
+					<hr class="small">
+					<span class="subheading"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container">
+	<!--
+	<div class="page-header text-center">
+		<h1><span class="fa fa-anchor"></span>Dashboard Page</h1>
+	</div> -->
+
+
+	<div class="wrapper">
+		<div class="row">
+
+			<div class="col-lg-2 col-sm-12">
+				<div class="box panel panel-default">
+					<div class="box-header">
+						<h6><a href="/profile">logged in as {{user.first_name}} {{user.last_name}}</h6></a>
+					</div>
+					<div class="box-contents panel-body">
+						<div class="">
+							<ul>
+								 <img class="thumbnail img-responsive" src="/assets/images/profilePic.png" width="300px" height="300px">
+							
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-5 col-sm-12">
+				<div class="box">
+				</div>
+			</div>
+
+
+
+			<div class="col-lg-5 col-sm-12">
+				<div class="box panel panel-default">
+					<div class="box-header">
+						<h4>Other Users & Fittness Goal</h4>
+					</div>
+					<div class="box-content panel-body">
+						<ol>
+							{{#each otherUser}}
+
+								<div class="panel-group">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+											<a data-toggle="collapse" href="#{{id}}">	{{this.first_name}} {{this.last_name}}</a>
+										</h4>
+										</div>
+										<div id="{{id}}" class="panel-collapse collapse panel-body">
+											Goal: {{this.fitness_goals}}
+											<hr>contact: {{this.user_email}}
+										</div>
+									</div>
+								</div>
+
+							{{/each}}
+						</ol>
+					</div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- <div class="row">
+		<div class="col-sm-6">
+			<div class="">
+				<h3><span class="fa fa-user"></span> Welcome! {{user.first_name}} {{user.last_name}}</h3>
+				<p>
+					<strong>id</strong>: {{user.id }}<br>
+					<strong>username</strong>: {{ user.user_name}}<br>
+					<strong>goals</strong> : {{user.fitness_goals}}<br>
+				</p>
+		<div class="col-sm-6">
+			<div class="otherUsernames">
+				<h2>Other Users&goals</h2>
+				<ol>
+					{{#each otherUser}}
+					<li>
+						{{this.user_name}}  &
+						{{this.fitness_goals}}
+					</li>
+					{{/each}}
+				</ol>
+			</div>
+		</div>
+			</div>
+		</div>
+	</div> -->
+
+</div>

@@ -1,0 +1,63 @@
+
+			<header class="intro-header" style="background-image:url('/assets/images/dashboard.jpg')">
+					<div class="container">
+							<div class="row">
+									<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+											<div class="site-heading">
+													<h1>Workouts.</h1>
+													<hr class="small">
+													<span class="subheading">Explore every workouts</span></br></br>
+                          <button type="submit" class="btn btn-primary btn-md" id="searchBtn"><span class="glyphicon glyphicon-search"></span>Search</button>
+											</div>
+									</div>
+							</div>
+					</div>
+			</header>
+
+
+      <div class="container">
+        <div class="row">
+          <div class = 'col-md-4 text-center'>
+            <div id = "main"></div>
+          </div>
+          <div class='col-md-4'></div>
+          <div class = 'col-md-4 text-center'>
+            <div id = "main2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--making ajax call to both api endpoints here -->
+  <script type="text/javascript">
+    var dataEx;
+    var dataImg;
+    $.when(
+      $.get("http://wger.de/api/v2/exercise/", function(dataOne){
+        dataEx = dataOne
+        console.log(dataEx)
+        console.log("data one:",dataEx)
+      }))
+      $.get("http://wger.de/api/v2/exerciseimage/", function(dataTwo){
+        dataImg = dataTwo;
+        console.log(dataImg)
+      }
+    ).then(function(){
+      if(dataEx){
+        console.log("data one:",dataEx)
+        var liArray = dataEx.results.map(function(exercise, index){
+          return '<li class = "ex-list"><a href="#">' + exercise.name + '</a></li></br>' +
+          '<p>' + exercise.description + '</p>'
+        })
+        var el = document.querySelector('#main');
+        el.innerHTML = liArray.join('');
+      }
+      if(dataImg){
+        console.log("data two", dataImg)
+        var imgArray = dataImg.results.map(function(exercise, index){
+          return '<img class = "img-list"><a href="/image/:exercise">' + exercise.image + '</a></img></br>'
+        })
+        var el2 = document.querySelector('#main2');
+        el2.innerHTML = imgArray.join('');
+      }
+    })
+  </script>

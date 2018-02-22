@@ -1,0 +1,139 @@
+<!-- <<<<<<< HEAD -->
+	    <!-- Navigation -->
+
+<!-- ======= -->
+<header class="intro-header" style="background-image:url('/assets/images/dashboard.jpg')">
+		<div class="container">
+				<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+								<div class="site-heading">
+										<h1>Workouts.</h1>
+										<hr class="small">
+										<span class="subheading">Explore every workout</span><br>
+
+								</div>
+						</div>
+				</div>
+		</div>
+</header>
+
+<div class="container">
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-lg-2 col-sm-12">
+				<div class="box panel panel-default">
+					<div class="box-contents panel-body">
+	        <img class="thumbnail img-responsive" src="/assets/images/profilePic.png" width="300px" height="300px">
+					</div>
+				</div>
+
+			</div>
+			<div class="col-lg-5 col-sm-12">
+				<div class="panel panel-default">
+					<div class="box-header">
+						<h4>Exercises 	<button type="submit" class=" btn-sm" id="searchBtn"><span class="glyphicon glyphicon-search"></span>Search</button></h4>
+					</div>
+					<div class="box-contents panel-body">
+						<div class="" id=main>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-5 col-sm-12">
+				<div class="panel panel-default">
+
+
+				{{#if success_msg}}
+					<div class="alert alert-success">{{success_msg}}</div>
+				{{/if}}
+
+				<div class="box-header">
+					<h4>Add workouts</h4>
+				</div>
+				<div class="box-contents panel-body">
+					<form class="" action="/workout" method="post">
+						<div class="form-group">
+							<div class="form-group">
+								<label>Monday</label>
+								<input type="text" class="form-control" name="monday" value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Tuesday</label>
+								<input type="text" class="form-control" name="tuesday"  value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Wednesday</label>
+								<input type="text" class="form-control" name="wednesday" value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Thursday</label>
+								<input type="text" class="form-control" name="thursday"  value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Friday</label>
+								<input type="text" class="form-control" name="friday"  value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Saturday</label>
+								<input type="text" class="form-control" name="saturday"  value=" ">
+							</div>
+
+							<div class="form-group">
+								<label>Sunday</label>
+								<input type="text" class="form-control" name="Sunday"  value=" ">
+							</div>
+
+
+
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+
+						<hr>
+
+						</div>
+					</form>
+
+
+				</div>
+
+					</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--making ajax call to api here -->
+<script type="text/javascript">
+		$("#searchBtn").on("click", function() {
+			$.get("http://wger.de/api/v2/exercise/?language=2", function(data) {
+				console.log(data);
+				if (data) {
+					console.log(data);
+					console.log("data: ", data.results);
+					var liArray = data.results.map(function(exercise, index){
+						// console.log("liarray exercise",exercise);
+						return '<div class="panel-group"><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" href="#'+index+'">'+exercise.name+'</a></div><div id="'+index+'" class="panel-collapse collapse">	'+exercise.description+'</div></div></div>'
+					})
+					console.log(liArray);
+					var el = document.querySelector('#main');
+					el.innerHTML = liArray.join('');
+				} else {
+					$("#main").text("Something went wrong. Your data was not found.");
+				}
+			});
+		});
+	</script>
+
+	<!--  -->
+<!-- >>>>>>> some styling and adding workout by typing in -->

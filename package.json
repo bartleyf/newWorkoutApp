@@ -1,0 +1,31 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.1",
+    "flash": "^1.1.0",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.33.4"
+  }
+}
