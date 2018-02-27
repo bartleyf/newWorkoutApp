@@ -14,7 +14,8 @@ var passport = require('passport');
 var flash    = require('connect-flash');
 var expressValidator = require('express-validator');
 
-var PORT     = process.env.PORT || 8080;
+app.set('port', (process.env.PORT || 5000));
+
 var app      = express();
 var db = require("./model");
 
@@ -84,7 +85,7 @@ require('./routes/login-routes.js')(app, passport); // load our routes and pass 
 
 // launch ======================================================================
 db.sequelize.sync().then(function() {
-  app.listen(PORT, function() {
+  app.listen(app.get('port'), function() {
     console.log("The magic happens on PORT " + PORT);
   });
 });
