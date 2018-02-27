@@ -14,7 +14,7 @@ var passport = require('passport');
 var flash    = require('connect-flash');
 var expressValidator = require('express-validator');
 
-var app      = express();
+var app = express();
 var db = require("./model");
 
 // configuration ===============================================================
