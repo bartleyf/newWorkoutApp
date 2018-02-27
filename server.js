@@ -14,8 +14,6 @@ var passport = require('passport');
 var flash    = require('connect-flash');
 var expressValidator = require('express-validator');
 
-app.set('port', (process.env.PORT || 5000));
-
 var app      = express();
 var db = require("./model");
 
@@ -84,8 +82,9 @@ app.use(expressValidator({
 require('./routes/login-routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
 
 // launch ======================================================================
+app.set('port', (process.env.PORT || 8080));
 db.sequelize.sync().then(function() {
-  app.listen(app.get('port'), function() {
-    console.log("The magic happens on PORT " + PORT);
-  });
+app.listen(app.get('port'), function () {
+  console.log('Node app is running on port', app.get('port'));
+});
 });
