@@ -1,0 +1,56 @@
+.intro-header {
+  margin: 0 !important;
+}
+.verticalNav {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding-left: 20px !important;
+}
+.navMain {
+  height: 750px !important;
+  width: 200px !important;
+  margin: 0;
+  background-color: #2D2D2D !important;
+  float: left;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.linksNav {
+  font-size: 28px !important;
+}
+.navbar-brand {
+  width: 50px !important;
+}
+.indexPage {
+  padding: 25px;
+  padding-left: 50px !important;
+}
+h1 {
+  margin-top: 0px !important;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.subheading {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.copyright {
+  padding-top: 280px;
+  padding-left: 20px;
+  color: #888888 !important;
+  font-size: 12px;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  background-color: #111111;
+}
+ul {
+  list-style-type: none !important;
+}
