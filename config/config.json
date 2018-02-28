@@ -17,7 +17,8 @@
       "username": "nfacqc17nqu6aajl",
       "password": "hgiu8j1o753ma6wi",
       "database": "workout",
-      "host": "127.0.0.1",
-      "dialect": "mysql"
+      "host": "icopoghru9oezxh8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "dialect": "mysql",
+      "use_env_variable": "mysql://nfacqc17nqu6aajl:hgiu8j1o753ma6wi@icopoghru9oezxh8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/jgymhf7sp1xgg1jr"
     }
   }
