@@ -80,7 +80,7 @@ app.use(expressValidator({
 
 
 // routes ======================================================================
-require('./routes/login-routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
+require('./routes/login-routes.js')(app, passport); // loads routes and pass in our app and fully configured passport
 
 // launch ======================================================================
 db.sequelize.sync().then(function() {

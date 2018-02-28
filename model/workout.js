@@ -1,6 +1,7 @@
 module.exports = function(sequelize, DataTypes) {
 
     var Workouts = sequelize.define("Workouts", {
+        
 
         monday: {
             type: DataTypes.STRING,
@@ -51,6 +52,11 @@ module.exports = function(sequelize, DataTypes) {
             validate: {
                 len: [1]
             }
+        },
+
+        UserId: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
       },
         {
