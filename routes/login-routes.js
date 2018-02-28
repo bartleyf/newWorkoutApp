@@ -106,7 +106,7 @@ module.exports = function(app, passport) {
                         fitness_goals: req.body.goals
                     };
 
-                };
+                }
 
                 db.User.create(newUserMysql).then(function(createdUser) {
                     // return done(null, createdUser);
@@ -115,7 +115,7 @@ module.exports = function(app, passport) {
                 });
 
             }
-        })
+        });
 
 
     });
@@ -174,7 +174,7 @@ module.exports = function(app, passport) {
             user_age: req.body.age,
             user_weight: req.body.weight,
             fitness_goals: req.body.goals
-        }
+        };
 
         db.User.update(
             editedUser, {
@@ -182,7 +182,7 @@ module.exports = function(app, passport) {
                     id: req.user.id
                 }
             }).then(function(dbUser) {
-            res.redirect('/profile')
+            res.redirect('/profile');
         });
     });
 
@@ -229,9 +229,9 @@ module.exports = function(app, passport) {
       db.Workouts.create(newWorkout).then(function(createWorkout){
         req.flash('success_msg','You successfully added workouts.');
         res.redirect('/workout');
-      })
+      });
 
-    })
+    });
 
 
     // =====================================
@@ -274,7 +274,7 @@ app.get('/profile', function(req, res) {
 		 user_age: req.body.age,
 		 user_weight: req.body.weight,
 		 fitness_goals:req.body.goals
-	 }
+	 };
 	 db.User.update(
 		 editedUser,
 		 {
@@ -282,7 +282,7 @@ app.get('/profile', function(req, res) {
 				id: req.user.id
 			}
 		}).then(function(dbUser){
-      res.redirect('/profile')
+      res.redirect('/profile');
 			});
  });
 

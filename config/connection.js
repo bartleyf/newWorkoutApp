@@ -4,7 +4,7 @@ var connection;
 if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
-var sequelize = new Sequelize("users_db","root","root",{
+ sequelize = new Sequelize("users_db","root","root",{
   host:"localhost",
   dialect:"mysql",
   pool: {
