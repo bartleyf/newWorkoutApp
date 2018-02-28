@@ -19,6 +19,6 @@
       "database": "workout",
       "host": "icopoghru9oezxh8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
       "dialect": "mysql",
-      "use_env_variable": "mysql://nfacqc17nqu6aajl:hgiu8j1o753ma6wi@icopoghru9oezxh8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/jgymhf7sp1xgg1jr"
+      "use_env_variable": "JAWSDB_URL"
     }
   }
