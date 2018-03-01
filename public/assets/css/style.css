@@ -2,23 +2,63 @@
   margin: 0 !important;
 }
 .verticalNav {
-  color: white;
+  color: #ffffff !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   padding-left: 20px !important;
 }
+.verticalNav :hover{
+  color: #ffffff;
+  opacity: 1;
+}
+input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  padding-bottom: 8px !important;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+button {
+  background:rgb(240, 55, 62);
+  color:#fcfcfc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding:12px 60px;
+  border:1px solid transparent;
+  border-radius:25px;
+  font-weight:600;
+  cursor:pointer;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.signUpInput {
+  padding-top: 0px !important;
+}
 .navMain {
-  height: 750px !important;
   width: 200px !important;
   margin: 0;
-  background-color: #2D2D2D !important;
+  background-color: rgba(0,0,0,.5) !important;
   float: left;
+  position: : fixed !important;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  height: 100vh !important;
 }
 .nav-link {
   color: #ffffff !important;
 }
 .linksNav {
-  font-size: 28px !important;
+  font-size: 20px !important;
 }
 .navbar-brand {
   width: 50px !important;
@@ -32,15 +72,28 @@ h1 {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
+.lineNav {
+  color: #ffffff !important;
+  opacity: 0.5 !important;
+}
 .subheading {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
 .copyright {
-  padding-top: 280px;
+  bottom: 100px !important;
   padding-left: 20px;
   color: #888888 !important;
-  font-size: 12px;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navLinks {
+  color: #ffffff !important;
+  opacity: 0.5;
+}
+.bodyContainer {
+  padding-left: 225px !important;
+  padding-top: 25px !important;
 }
 a {
   text-decoration: none !important;
@@ -49,7 +102,11 @@ body {
   margin: 0 !important;
   height: 100%;
   width: 100%;
-  background-color: #111111;
+  background-image: linear-gradient(rgb(140, 55, 62), rgb(9, 5, 6) 85%);
+}
+hr {
+  color: #ffffff !important;
+  opacity: 0.5 !important;
 }
 ul {
   list-style-type: none !important;
