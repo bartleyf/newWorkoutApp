@@ -18,73 +18,48 @@
 <body>
 	    <!-- Navigation -->
       <div class = 'navMain'>
-        <a class="navbar-brand" href=""><img src="/assets/workoutAppLogo.png" style='width:120px; padding-top:25px; padding-left: 40px;'></a>
+        <a class="navbar-brand" href=""><img src="/assets/workoutAppLogo.png" style='width:100px; padding-top:25px; padding-left: 40px;'></a>
+        <hr class="small lineNav">
           <div class="linksNav">
             <ul class = 'nav flex-column verticalNav'>
 			            {{#if user}}
 	                <li>
-	                   <a href="/dashboard">Dashboard</a>
+	                   <a class="navLinks" href="/dashboard">Dashboard</a>
 	                </li>
 								  <li>
-									   <a href="/profile">Profile</a>
+									   <a class="navLinks" href="/profile">Profile</a>
 								  </li>
 								  <li>
-										 <a href="/workout">Workout</a>
+										 <a class="navLinks" href="/workout">Workout</a>
 									</li>
 	                <li>
-	                   <a href="/logout">logout</a>
+	                   <a class="navLinks" href="/logout">logout</a>
 	                </li>
 									{{else}}
 									<li>
-									   <a href="/">home</a>
+									   <a class="navLinks" href="/">Home</a>
 									</li>
 	                <li>
-	                   <a href="/login">login</a>
+	                   <a class="navLinks" href="/login">Login</a>
 	                </li>
 	                <li>
-	                   <a href="/signup">register</a>
+	                   <a class="navLinks" href="/signup">Register</a>
 	                </li>
 									{{/if}}
 	           </ul>
+             <hr class="small lineNav">
 	        </div>
-					<div class="container">
-					       <div class="row">
-											<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-													<ul class="list-inline text-center">
-															<li>
-																	<a href="#">
-																			<span class="fa-stack fa-lg">
-																					<i class="fa fa-circle fa-stack-2x"></i>
-																					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-																			</span>
-																	</a>
-															</li>
-															<li>
-																	<a href="#">
-																			<span class="fa-stack fa-lg">
-																					<i class="fa fa-circle fa-stack-2x"></i>
-																					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-																			</span>
-																	</a>
-															</li>
-															<li>
-																	<a href="https://github.com/bartleyf/newWorkoutApp">
-																			<span class="fa-stack fa-lg">
-																					<i class="fa fa-circle fa-stack-2x"></i>
-																					<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-																			</span>
-																	</a>
-															</li>
-													</ul>
-											</div>
-									</div>
-							</div>
               <p class="copyright text-muted">Copyright &copy; The Mariachis 2018</p>
+              <div class="box-header">
+    						<h6><a href="/profile">{{user.first_name}} {{user.last_name}}</h6></a>
+    					</div>
           <footer>
 					</footer>
         </div>
 
+        <div class="bodyContainer">
           {{{body}}}
+        </div>
 
 
           <script src="/js/jquery.min.js"></script>
