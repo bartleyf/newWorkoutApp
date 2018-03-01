@@ -115,25 +115,25 @@
 
 <!--making ajax call to api here -->
 <script type="text/javascript">
-		$("#searchBtn").on("click", function() {
-			$.get("http://wger.de/api/v2/exercise/?language=2", function(data) {
+	$("#searchBtn").on("click", function () {
+		$.get("http://wger.de/api/v2/exercise/?language=2", function (data) {
+			console.log(data);
+			if (data) {
 				console.log(data);
-				if (data) {
-					console.log(data);
-					console.log("data: ", data.results);
-					var liArray = data.results.map(function(exercise, index){
-						// console.log("liarray exercise",exercise);
-						return '<div class="panel-group"><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" href="#'+index+'">'+exercise.name+'</a></div><div id="'+index+'" class="panel-collapse collapse">	'+exercise.description+'</div></div></div>'
-					})
-					console.log(liArray);
-					var el = document.querySelector('#main');
-					el.innerHTML = liArray.join('');
-				} else {
-					$("#main").text("Something went wrong. Your data was not found.");
-				}
-			});
+				console.log("data: ", data.results);
+				var liArray = data.results.map(function (exercise, index) {
+					// console.log("liarray exercise",exercise);
+					return '<div class="panel-group"><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" href="#' + index + '">' + exercise.name + '</a></div><div id="' + index + '" class="panel-collapse collapse">	' + exercise.description + '</div></div></div>'
+				})
+				console.log(liArray);
+				var el = document.querySelector('#main');
+				el.innerHTML = liArray.join('');
+			} else {
+				$("#main").text("Something went wrong. Your data was not found.");
+			}
 		});
-	</script>
+	});
+</script>
 
 	<!--  -->
 <!-- >>>>>>> some styling and adding workout by typing in -->
