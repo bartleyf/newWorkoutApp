@@ -33,7 +33,7 @@
 										 <a class="navLinks" href="/workout">Workout</a>
 									</li>
 	                <li>
-	                   <a class="navLinks" href="/logout">logout</a>
+	                   <a class="navLinks" href="/logout">Logout</a>
 	                </li>
 									{{else}}
 									<li>
@@ -49,9 +49,9 @@
 	           </ul>
              <hr class="small lineNav">
 	        </div>
+              <h6>Welcome Back, <a href="/profile">{{user.first_name}} {{user.last_name}}</h6></a>
               <p class="copyright text-muted">Copyright &copy; The Mariachis 2018</p>
               <div class="box-header">
-    						<h6><a href="/profile">{{user.first_name}} {{user.last_name}}</h6></a>
     					</div>
           <footer>
 					</footer>
