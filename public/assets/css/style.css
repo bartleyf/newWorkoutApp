@@ -148,3 +148,6 @@ hr {
 ul {
   list-style-type: none !important;
 }
+li {
+  display: inline-block !important;
+}
