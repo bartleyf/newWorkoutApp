@@ -49,7 +49,11 @@
 	           </ul>
              <hr class="small lineNav">
 	        </div>
+              <div class="welcomeBack">
+              {{#if user}}
               <h6>Welcome Back, <a href="/profile">{{user.first_name}} {{user.last_name}}</h6></a>
+              {{/if}}
+              </div>
               <p class="copyright text-muted">Copyright &copy; The Mariachis 2018</p>
               <div class="box-header">
     					</div>
