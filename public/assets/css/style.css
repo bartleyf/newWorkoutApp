@@ -13,37 +13,34 @@
 }
 .mondayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .tuesdayTable{
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .wednesdayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .thursdayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .fridayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .saturdayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
+  list-style-type: circle !important;
 }
 .sundayTable {
   padding-right: 20px !important;
-  border-right: 10px !important;
+  list-style-type: circle !important;
+}
+.borderWeekday {
+  border: 20px !important;
   border-color: #ffffff !important;
 }
 input {
@@ -175,10 +172,8 @@ hr {
   opacity: 0.5 !important;
 }
 ul {
-  list-style-type: none !important;
+  list-style-type: none;
 }
 .weekdayBlock {
   display: inline-block !important;
-  border-right: 10px !important;
-  border-color: #ffffff !important;
 }
