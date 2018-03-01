@@ -12,10 +12,25 @@
   opacity: 1;
 }
 .mondayTable {
-  border: 30px;
-  border-radius: 25px;
-  height: 200px !important;
-  width: 40px !important;
+  padding-right: 20px !important;
+}
+.tuesdayTable{
+  padding-right: 20px !important;
+}
+.wednesdayTable {
+  padding-right: 20px !important;
+}
+.thursdayTable {
+  padding-right: 20px !important;
+}
+.fridayTable {
+  padding-right: 20px !important;
+}
+.saturdayTable {
+  padding-right: 20px !important;
+}
+.sundayTable {
+  padding-right: 20px !important; 
 }
 input {
   background: transparent;
@@ -148,6 +163,6 @@ hr {
 ul {
   list-style-type: none !important;
 }
-li {
+.weekdayBlock {
   display: inline-block !important;
 }
