@@ -32,12 +32,12 @@
     var dataEx;
     var dataImg;
     $.when(
-      $.get("http://wger.de/api/v2/exercise/", function(dataOne){
+      $.get("https://wger.de/api/v2/exercise/", function(dataOne){
         dataEx = dataOne
         console.log(dataEx)
         console.log("data one:",dataEx)
       }))
-      $.get("http://wger.de/api/v2/exerciseimage/", function(dataTwo){
+      $.get("https://wger.de/api/v2/exerciseimage/", function(dataTwo){
         dataImg = dataTwo;
         console.log(dataImg)
       }
