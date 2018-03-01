@@ -228,7 +228,7 @@ module.exports = function(app, passport) {
       };
       db.Workouts.create(newWorkout).then(function(createWorkout){
         req.flash('success_msg','You successfully added workouts.');
-        res.redirect('/workout');
+        res.redirect('/profile');
       });
 
     });
