@@ -39,11 +39,14 @@ h6 {
   color: #ffffff;
   opacity: 0.5;
 }
+.welcomeBack {
+  padding-left: 20px !important;
+}
 .friendsFeed {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #ffffff;
-  opacity: 1;  
+  opacity: 1 !important;
 }
 h4 {
   font-family: 'Montserrat', sans-serif;
@@ -120,7 +123,7 @@ h1 {
 }
 a {
   text-decoration: none !important;
-
+  color: #ffffff;
 }
 body {
   margin: 0 !important;
