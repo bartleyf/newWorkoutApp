@@ -11,6 +11,12 @@
   color: #ffffff;
   opacity: 1;
 }
+.mondayTable {
+  border: 30px;
+  border-radius: 25px;
+  height: 200px !important;
+  width: 40px !important;
+}
 input {
   background: transparent;
   width: 100%;
@@ -27,11 +33,15 @@ label {
   font-size: 20px;
   color: #ffffff;
 }
+.dashboardDiv {
+  font-weight: 900 !important;
+}
 .panel-group {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   color: #ffffff;
   opacity: 1 !important;
+  font-weight: bold !important;
 }
 h6 {
   font-family: 'Montserrat', sans-serif;
