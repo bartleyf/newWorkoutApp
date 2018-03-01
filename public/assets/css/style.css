@@ -129,7 +129,7 @@ body {
   margin: 0 !important;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(#2C5E92 0), #552F6D 80%);
+  background-image: linear-gradient(90deg,#2c5e92 0,#552f6d 80%);
 }
 hr {
   color: #ffffff !important;
