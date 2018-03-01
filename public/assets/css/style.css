@@ -27,6 +27,29 @@ label {
   font-size: 20px;
   color: #ffffff;
 }
+.panel-group {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.friendsFeed {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 1;  
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
 button {
   background:rgb(240, 55, 62);
   color:#fcfcfc;
@@ -97,6 +120,7 @@ h1 {
 }
 a {
   text-decoration: none !important;
+
 }
 body {
   margin: 0 !important;
