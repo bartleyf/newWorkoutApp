@@ -31,7 +31,10 @@ label {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   color: #ffffff;
-  opacity: 0.5;
+  opacity: 1;
+}
+.panel-body {
+  opacity: 0.5 !important;
 }
 h6 {
   font-family: 'Montserrat', sans-serif;
