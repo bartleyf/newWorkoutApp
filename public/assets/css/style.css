@@ -13,24 +13,38 @@
 }
 .mondayTable {
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .tuesdayTable{
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .wednesdayTable {
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .thursdayTable {
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .fridayTable {
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .saturdayTable {
   padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 .sundayTable {
-  padding-right: 20px !important; 
+  padding-right: 20px !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
 input {
   background: transparent;
