@@ -3,8 +3,7 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 				<div class="site-heading">
-					<h1>Profile of {{user.first_name}} {{user.last_name}}.</h1>
-					<hr class="small">
+					<h1>My Week</h1>
 					<span class="subheading"></span>
 				</div>
 			</div>
@@ -37,44 +36,7 @@
 <div class="container">
 	<div class="row profile">
 
-		<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<div class="media">
-						<div align="center">
-							<img class="thumbnail img-responsive" src="/assets/images/profilePic.png" width="300px" height="300px">
-						</div>
-						<div class="media-body">
-							<h4>
-								<strong>{{user.first_name}} {{user.last_name}}</strong>
-								<a href="/editProfile" class="btn btn-default btn-sm">profile setting</a>
-							</h4>
-							{{user.user_email}}
-							<hr>
-							<h4>
-								<strong>Age</strong>
-							</h4>
-							{{user.user_age}}
-							<hr>
-							<h4>
-								<strong>Gender</strong>
-							</h4>
-							{{user.user_gender}}
-							<hr>
-							<h4>
-								<strong>Weight</strong>
-							</h4>
-							{{user.user_weight}} lb
-							<hr>
-							<h4>
-								<strong>Fitness Goal</strong>
-							</h4>
-							{{user.fitness_goals}}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
 
 
 
@@ -217,6 +179,98 @@
 						</div>
 					</div>
 
+					<div class="box-header">
+						<h4>Add workouts</h4>
+					</div>
+					<div class="box-contents panel-body">
+						<form class="" action="/workout" method="post">
+							<div class="form-group">
+								<div class="form-group">
+									<label>Monday</label>
+									<input type="text" class="form-control" name="monday" value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Tuesday</label>
+									<input type="text" class="form-control" name="tuesday"  value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Wednesday</label>
+									<input type="text" class="form-control" name="wednesday" value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Thursday</label>
+									<input type="text" class="form-control" name="thursday"  value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Friday</label>
+									<input type="text" class="form-control" name="friday"  value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Saturday</label>
+									<input type="text" class="form-control" name="saturday"  value=" ">
+								</div>
+
+								<div class="form-group">
+									<label>Sunday</label>
+									<input type="text" class="form-control" name="Sunday"  value=" ">
+								</div>
+
+
+
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+
+							<hr>
+
+							</div>
+						</form>
+
+
+					</div>
+
+
+					
+
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="media">
+								<div class="media-body">
+									<h4>
+										<strong>{{user.first_name}} {{user.last_name}}</strong>
+										<a href="/editProfile" class="btn btn-default btn-sm">profile setting</a>
+									</h4>
+									{{user.user_email}}
+									<hr>
+									<h4>
+										<strong>Age</strong>
+									</h4>
+									{{user.user_age}}
+									<hr>
+									<h4>
+										<strong>Gender</strong>
+									</h4>
+									{{user.user_gender}}
+									<hr>
+									<h4>
+										<strong>Weight</strong>
+									</h4>
+									{{user.user_weight}} lb
+									<hr>
+									<h4>
+										<strong>Fitness Goal</strong>
+									</h4>
+									{{user.fitness_goals}}
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
