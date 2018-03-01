@@ -179,4 +179,6 @@ ul {
 }
 .weekdayBlock {
   display: inline-block !important;
+  border-right: 10px !important;
+  border-color: #ffffff !important;
 }
