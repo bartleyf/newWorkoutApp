@@ -183,8 +183,8 @@ ul {
   border: 10px solid #FF0302 !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .tuesdayBlock {
   display: inline-block !important;
@@ -192,8 +192,8 @@ ul {
   border: 10px solid #0071F5 !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .wednesdayBlock {
   display: inline-block !important;
@@ -201,8 +201,8 @@ ul {
   border: 10px solid #FFFC00 !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .thursdayBlock {
   display: inline-block !important;
@@ -210,8 +210,8 @@ ul {
   border: 10px solid #1ED760 !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .fridayBlock {
   display: inline-block !important;
@@ -219,8 +219,8 @@ ul {
   border: 10px solid #FFFFFF !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .saturdayBlock {
   display: inline-block !important;
@@ -228,8 +228,8 @@ ul {
   border: 10px solid #F46899 !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
 .sundayBlock {
   display: inline-block !important;
@@ -237,6 +237,6 @@ ul {
   border: 10px solid #9013FE !important;
   border-radius: 10px !important;
   height: 500px !important;
-  width: 150px !important;
-  margin-right: 20px !important;
+  width: 120px !important;
+  margin-right: 10px !important;
 }
