@@ -114,7 +114,7 @@ button {
   top: 0;
   bottom: 0;
   overflow: auto;
-  height: 760px !important;
+  height: 750px !important;
 }
 .nav-link {
   color: #ffffff !important;
@@ -150,7 +150,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 .ulWeekdayDiv {
-  list-style-type: none !important;
+  list-style-type: circle !important;
 }
 .navLinks {
   color: #ffffff !important;
@@ -177,10 +177,52 @@ hr {
 ul {
   list-style-type: none;
 }
-.weekdayBlock {
+.mondayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid white !important;
+  border: 5px solid #FF0302 !important;
   border-radius: 10px !important;
-  opacity: 0.5 !important;
+  height: 200px !important;
+}
+.tuesdayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #0071F5 !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+.wednesdayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #FFFC00 !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+.thursdayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #1ED760 !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+.fridayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #FFFFFF !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+.saturdayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #F46899 !important;
+  border-radius: 10px !important;
+  height: 200px !important;
+}
+.sundayBlock {
+  display: inline-block !important;
+  list-style-position:inside !important;
+  border: 5px solid #9013FE !important;
+  border-radius: 10px !important;
+  height: 200px !important;
 }
