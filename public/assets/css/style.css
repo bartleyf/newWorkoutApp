@@ -110,11 +110,10 @@ button {
   margin: 0;
   background-color: rgba(0,0,0,.5) !important;
   float: left;
-  position: : sticky !important;
   top: 0;
   bottom: 0;
   overflow: auto;
-  height: 100vh !important;
+  height: 100% !important;
 }
 .nav-link {
   color: #ffffff !important;
@@ -150,7 +149,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 .ulWeekdayDiv {
-  list-style-type: circle !important;
+  list-style-type: none !important;
 }
 .navLinks {
   color: #ffffff !important;
