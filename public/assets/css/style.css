@@ -110,7 +110,7 @@ button {
   margin: 0;
   background-color: rgba(0,0,0,.5) !important;
   float: left;
-  position: : fixed !important;
+  position: : sticky !important;
   top: 0;
   bottom: 0;
   overflow: auto;
@@ -148,6 +148,9 @@ h1 {
   color: #888888 !important;
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
+}
+.ulWeekdayDiv {
+  list-style-type: circle !important;
 }
 .navLinks {
   color: #ffffff !important;
