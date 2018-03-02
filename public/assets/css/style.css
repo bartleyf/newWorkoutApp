@@ -108,12 +108,13 @@ button {
 .navMain {
   width: 200px !important;
   margin: 0;
+  position: sticky !important;
   background-color: rgba(0,0,0,.5) !important;
   float: left;
   top: 0;
   bottom: 0;
   overflow: auto;
-  height: 100% !important;
+  height: 760px !important;
 }
 .nav-link {
   color: #ffffff !important;
