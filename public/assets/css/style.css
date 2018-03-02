@@ -150,7 +150,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 .ulWeekdayDiv {
-  list-style-type: circle !important;
+  list-style-type: none !important;
 }
 .navLinks {
   color: #ffffff !important;
@@ -180,49 +180,49 @@ ul {
 .mondayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #FF0302 !important;
+  border: 10px solid #FF0302 !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .tuesdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #0071F5 !important;
+  border: 10px solid #0071F5 !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .wednesdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #FFFC00 !important;
+  border: 10px solid #FFFC00 !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .thursdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #1ED760 !important;
+  border: 10px solid #1ED760 !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .fridayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #FFFFFF !important;
+  border: 10px solid #FFFFFF !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .saturdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #F46899 !important;
+  border: 10px solid #F46899 !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
 .sundayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
-  border: 5px solid #9013FE !important;
+  border: 10px solid #9013FE !important;
   border-radius: 10px !important;
-  height: 200px !important;
+  height: 500px !important;
 }
