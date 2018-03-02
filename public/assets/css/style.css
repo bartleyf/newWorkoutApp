@@ -183,6 +183,7 @@ ul {
   border: 10px solid #FF0302 !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .tuesdayBlock {
@@ -191,6 +192,7 @@ ul {
   border: 10px solid #0071F5 !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .wednesdayBlock {
@@ -199,6 +201,7 @@ ul {
   border: 10px solid #FFFC00 !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .thursdayBlock {
@@ -207,6 +210,7 @@ ul {
   border: 10px solid #1ED760 !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .fridayBlock {
@@ -215,6 +219,7 @@ ul {
   border: 10px solid #FFFFFF !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .saturdayBlock {
@@ -223,6 +228,7 @@ ul {
   border: 10px solid #F46899 !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
 .sundayBlock {
@@ -231,5 +237,6 @@ ul {
   border: 10px solid #9013FE !important;
   border-radius: 10px !important;
   height: 500px !important;
+  width: 200px !important;
   margin-right: 20px !important;
 }
