@@ -196,6 +196,9 @@ ul {
   margin-right: auto;
   width: 50%;
 }
+.titleIndex {
+  text-align: center !important;
+}
 .mondayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
