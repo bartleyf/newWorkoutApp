@@ -97,7 +97,8 @@ button {
 }
 .hrTable {
   padding: none !important;
-  border-width: 5px !important;
+  border-top-width: 5px !important;
+  opacity: none !important;
 }
 .signUpInput {
   padding-top: 0px !important;
