@@ -259,3 +259,6 @@ ul {
 .hrSunday {
   border-color: #9013FE !important;
 }
+.weekName {
+  text-align: center !important;
+}
