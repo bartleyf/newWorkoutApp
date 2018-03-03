@@ -189,6 +189,12 @@ hr {
 ul {
   list-style-type: none;
 }
+.albumCovers {
+  display: block;
+  width: 278px;
+  height: 278px;
+  border: 0;
+}
 .mondayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
