@@ -69,7 +69,7 @@
 								</h4>
 								<hr class="small hrTable hrMonday">
 							</div>
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.monday}}</li>
 									{{/each}}
@@ -88,7 +88,7 @@
 								<hr class="small hrTable hrTuesday">
 							</div>
 							<div id="collapse2" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.tuesday}}</li>
 									{{/each}}
@@ -108,7 +108,7 @@
 								<hr class="small hrTable hrWednesday">
 							</div>
 							<div id="collapse3" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.wednesday}}</li>
 									{{/each}}
@@ -128,7 +128,7 @@
 								<hr class="small hrTable hrThursday">
 							</div>
 							<div id="collapse4" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.thursday}}</li>
 									{{/each}}
@@ -148,7 +148,7 @@
 								<hr class="small hrTable hrFriday">
 							</div>
 							<div id="collapse5" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.friday}}</li>
 									{{/each}}
@@ -168,7 +168,7 @@
 								<hr class="small hrTable hrSaturday">
 							</div>
 							<div id="collapse6" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">{{this.saturday}}</li>
 									{{/each}}
@@ -188,7 +188,7 @@
 								<hr class="small hrTable hrSunday">
 							</div>
 							<div id="collapse7" class="panel-collapse collapse panel-body">
-								<ul>
+								<ul class="workoutNames">
 									{{# each workouts}}
 									<li class="ulWeekdayDiv">
 										{{this.sunday}}
@@ -210,36 +210,43 @@
 									<label>Monday</label>
 									<input type="text" class="form-control" name="monday" value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Tuesday</label>
 									<input type="text" class="form-control" name="tuesday"  value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Wednesday</label>
 									<input type="text" class="form-control" name="wednesday" value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Thursday</label>
 									<input type="text" class="form-control" name="thursday"  value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Friday</label>
 									<input type="text" class="form-control" name="friday"  value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Saturday</label>
 									<input type="text" class="form-control" name="saturday"  value=" ">
 								</div>
+								<hr class="small">
 
 								<div class="form-group">
 									<label>Sunday</label>
 									<input type="text" class="form-control" name="Sunday"  value=" ">
 								</div>
+								<hr class="small">
 
 
 
@@ -258,41 +265,7 @@
 
 				</ul>
 				</div>
-				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-					<div class="panel panel-default">
-						<div class="panel-body">
-							<div class="media">
-								<div class="media-body">
-									<h4>
-										<strong>{{user.first_name}} {{user.last_name}}</strong>
-										<a href="/editProfile" class="btn btn-default btn-sm">profile setting</a>
-									</h4>
-									{{user.user_email}}
-									<hr>
-									<h4>
-										<strong>Age</strong>
-									</h4>
-									{{user.user_age}}
-									<hr>
-									<h4>
-										<strong>Gender</strong>
-									</h4>
-									{{user.user_gender}}
-									<hr>
-									<h4>
-										<strong>Weight</strong>
-									</h4>
-									{{user.user_weight}} lb
-									<hr>
-									<h4>
-										<strong>Fitness Goal</strong>
-									</h4>
-									{{user.fitness_goals}}
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+
 			</div>
 		</div>
 
