@@ -82,6 +82,9 @@ h4 {
   font-size: 20px;
   color: #ffffff;
 }
+.workoutNames {
+  padding-left: 10px !important;
+}
 button {
   background:rgb(240, 55, 62);
   color:#fcfcfc;
