@@ -20,6 +20,48 @@
 <div class="container">
 	<div class="wrapper">
 		<div class="row">
+
+
+
+			<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="media">
+							<div class="media-body">
+								<h4>
+									<strong>{{user.first_name}} {{user.last_name}}</strong>
+									<a href="/editProfile" class="btn btn-default btn-sm">profile setting</a>
+								</h4>
+								{{user.user_email}}
+								<hr>
+								<h4>
+									<strong>Age</strong>
+								</h4>
+								{{user.user_age}}
+								<hr>
+								<h4>
+									<strong>Gender</strong>
+								</h4>
+								{{user.user_gender}}
+								<hr>
+								<h4>
+									<strong>Weight</strong>
+								</h4>
+								{{user.user_weight}} lb
+								<hr>
+								<h4>
+									<strong>Fitness Goal</strong>
+								</h4>
+								{{user.fitness_goals}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			
+
 			<div class="col-lg-2 col-sm-12">
 				<div class="box panel panel-default">
 					<div class="box-contents panel-body">
