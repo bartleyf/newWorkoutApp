@@ -151,6 +151,7 @@ h1 {
 }
 .ulWeekdayDiv {
   list-style-type: none !important;
+  display: table-row !important;
 }
 .navLinks {
   color: #ffffff !important;
