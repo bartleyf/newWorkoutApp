@@ -36,6 +36,9 @@
   border: 20px !important;
   border-color: #ffffff !important;
 }
+.picturesMain {
+  width: 600px;
+}
 input {
   background: transparent;
   width: 100%;
