@@ -12,31 +12,24 @@
   opacity: 1;
 }
 .mondayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .tuesdayTable{
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .wednesdayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .thursdayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .fridayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .saturdayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .sundayTable {
-  padding-right: 20px !important;
   list-style-type: circle !important;
 }
 .borderWeekday {
@@ -101,6 +94,9 @@ button {
   cursor:pointer;
   margin-bottom: 60px;
   margin-top: 20px;
+}
+.hrTable {
+  padding: none !important;
 }
 .signUpInput {
   padding-top: 0px !important;
