@@ -41,7 +41,7 @@ app.set("view engine", "handlebars");
 
 // required for passport
 app.use(session({
-	secret: 'vidyapathaisalwaysrunning',
+	secret: 'tomas',
 	resave: true,
 	saveUninitialized: true
  } )); // session secret
