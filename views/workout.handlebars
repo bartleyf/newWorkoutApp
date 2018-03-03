@@ -8,8 +8,6 @@
 						<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 								<div class="site-heading">
 										<h1>Workouts.</h1>
-										<hr class="small">
-										<span class="subheading">Explore every workout</span><br>
 
 								</div>
 						</div>
@@ -32,44 +30,36 @@
 									<strong>{{user.first_name}} {{user.last_name}}</strong>
 									<a href="/editProfile" class="btn btn-default btn-sm">profile setting</a>
 								</h4>
-								{{user.user_email}}
+								<h4>
+								<strong>Email</strong>
+								</h4>
+								<div class="profileSetting">{{user.user_email}}</div>
 								<hr>
 								<h4>
 									<strong>Age</strong>
 								</h4>
-								{{user.user_age}}
+								<div class="profileSetting">{{user.user_age}}</div>
 								<hr>
 								<h4>
 									<strong>Gender</strong>
 								</h4>
-								{{user.user_gender}}
+								<div class="profileSetting">{{user.user_gender}}</div>
 								<hr>
 								<h4>
 									<strong>Weight</strong>
 								</h4>
-								{{user.user_weight}} lb
+								<div class="profileSetting">{{user.user_weight}} lb</div>
 								<hr>
 								<h4>
 									<strong>Fitness Goal</strong>
 								</h4>
-								{{user.fitness_goals}}
+								<div class="profileSetting">{{user.fitness_goals}}</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-
-			
-
-			<div class="col-lg-2 col-sm-12">
-				<div class="box panel panel-default">
-					<div class="box-contents panel-body">
-	        <img class="thumbnail img-responsive" src="/assets/images/profilePic.png" width="300px" height="300px">
-					</div>
-				</div>
-
-			</div>
 			<div class="col-lg-5 col-sm-12">
 				<div class="panel panel-default">
 					<div class="box-header">
@@ -91,59 +81,7 @@
 					<div class="alert alert-success">{{success_msg}}</div>
 				{{/if}}
 
-				<div class="box-header">
-					<h4>Add workouts</h4>
-				</div>
-				<div class="box-contents panel-body">
-					<form class="" action="/workout" method="post">
-						<div class="form-group">
-							<div class="form-group">
-								<label>Monday</label>
-								<input type="text" class="form-control" name="monday" value=" ">
-							</div>
 
-							<div class="form-group">
-								<label>Tuesday</label>
-								<input type="text" class="form-control" name="tuesday"  value=" ">
-							</div>
-
-							<div class="form-group">
-								<label>Wednesday</label>
-								<input type="text" class="form-control" name="wednesday" value=" ">
-							</div>
-
-							<div class="form-group">
-								<label>Thursday</label>
-								<input type="text" class="form-control" name="thursday"  value=" ">
-							</div>
-
-							<div class="form-group">
-								<label>Friday</label>
-								<input type="text" class="form-control" name="friday"  value=" ">
-							</div>
-
-							<div class="form-group">
-								<label>Saturday</label>
-								<input type="text" class="form-control" name="saturday"  value=" ">
-							</div>
-
-							<div class="form-group">
-								<label>Sunday</label>
-								<input type="text" class="form-control" name="Sunday"  value=" ">
-							</div>
-
-
-
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-
-						<hr>
-
-						</div>
-					</form>
-
-
-				</div>
 
 					</div>
 
