@@ -97,6 +97,7 @@ button {
 }
 .hrTable {
   padding: none !important;
+  border-width: 5px !important;
 }
 .signUpInput {
   padding-top: 0px !important;
@@ -183,6 +184,9 @@ ul {
   width: 120px !important;
   margin-right: 20px !important;
 }
+.hrMonday {
+  border-color: #FF0302 !important;
+}
 .tuesdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
@@ -191,6 +195,9 @@ ul {
   height: 500px !important;
   width: 120px !important;
   margin-right: 20px !important;
+}
+.hrTuesday {
+  border-color: #0071F5 !important;
 }
 .wednesdayBlock {
   display: inline-block !important;
@@ -201,6 +208,9 @@ ul {
   width: 120px !important;
   margin-right: 20px !important;
 }
+.hrWednesday {
+  border-color: #FFFC00 !important;
+}
 .thursdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
@@ -209,6 +219,9 @@ ul {
   height: 500px !important;
   width: 120px !important;
   margin-right: 20px !important;
+}
+.hrThursday {
+  border-color: #1ED760 !important;
 }
 .fridayBlock {
   display: inline-block !important;
@@ -219,6 +232,9 @@ ul {
   width: 120px !important;
   margin-right: 20px !important;
 }
+.hrFriday {
+  border-color: #FFFFFF !important;
+}
 .saturdayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
@@ -228,6 +244,9 @@ ul {
   width: 120px !important;
   margin-right: 20px !important;
 }
+.hrSaturday {
+  border-color: #F46899 !important;
+}
 .sundayBlock {
   display: inline-block !important;
   list-style-position:inside !important;
@@ -236,4 +255,7 @@ ul {
   height: 500px !important;
   width: 120px !important;
   margin-right: 20px !important;
+}
+.hrSunday {
+  border-color: #9013FE !important;
 }
