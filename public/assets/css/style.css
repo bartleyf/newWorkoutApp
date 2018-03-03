@@ -37,7 +37,7 @@
   border-color: #ffffff !important;
 }
 .picturesMain {
-  width: 600px;
+  width: 600px !important;
 }
 input {
   background: transparent;
@@ -196,7 +196,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrMonday {
   border-color: #FF0302 !important;
@@ -208,7 +208,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrTuesday {
   border-color: #0071F5 !important;
@@ -220,7 +220,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrWednesday {
   border-color: #FFFC00 !important;
@@ -232,7 +232,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrThursday {
   border-color: #1ED760 !important;
@@ -244,7 +244,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrFriday {
   border-color: #FFFFFF !important;
@@ -256,7 +256,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrSaturday {
   border-color: #F46899 !important;
@@ -268,7 +268,7 @@ ul {
   border-radius: 10px !important;
   height: 500px !important;
   width: 120px !important;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 .hrSunday {
   border-color: #9013FE !important;
