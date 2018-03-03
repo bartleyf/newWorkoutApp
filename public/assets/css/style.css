@@ -190,10 +190,11 @@ ul {
   list-style-type: none;
 }
 .albumCovers {
-  display: block;
-  width: 278px;
-  height: 278px;
   border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .mondayBlock {
   display: inline-block !important;
